@@ -1,0 +1,126 @@
+velocity = start("Velocity")
+click(Point(velocity.main_window.x + 34, velocity.main_window.y + 43)) # Main menu
+click("Add / Download") # Add / Download button
+click(Point(velocity.main_window.x + 330, velocity.main_window.y + 137)) # Dash section
+
+search_bar = Point(velocity.main_window.x + 940, velocity.main_window.y + 73)
+first_result = Point(velocity.main_window.x + 1240, velocity.main_window.y + 100)
+second_result = Point(velocity.main_window.x + 1240, velocity.main_window.y + 130)
+
+click(search_bar)
+
+# Bootstrap 2
+write("Bootstrap")
+click(second_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# CoffeeScript
+write("CoffeeScript")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# CSS
+write("CSS")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Express
+write("Express")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Grunt
+write("Grunt")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# HTML
+write("HTML")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Jade
+write("Jade")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# jQuery
+write("jQuery")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Lodash
+write("Lo-Dash")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Markdown
+write("Markdown")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Moment.js
+write("MomentJS")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# JavaScript
+write("JavaScript")
+click(second_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Node.js
+write("NodeJS")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# MongoDB
+write("MongoDB")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# Stylus
+write("Stylus")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+# SVG
+write("SVG")
+click(first_result)
+
+click(search_bar)
+press(CTRL + "a", DEL)
+
+click(Point(velocity.main_window.x + 34, velocity.main_window.y + 43)) # Main menu
+click(Point(velocity.main_window.x + 130, velocity.main_window.y + 75)) # Doc search bar
+click(Point(velocity.main_window.x + 1270, velocity.main_window.y + 15)) # Close button
